@@ -8,13 +8,12 @@ function Jumbotron ({children}){
             style={{clear:"both",marginTop:30, 
                 paddingTop: 120, 
                 paddingBottom: 120, 
-                textAlign: "center"
-                ,
+                textAlign: "center",
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 backgroundImage: "url(" + background + ")"
-            }}
+                }}
             className="jumbotron border">
             {children}
         </div>

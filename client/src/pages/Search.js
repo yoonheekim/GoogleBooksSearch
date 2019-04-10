@@ -50,7 +50,7 @@ class Search extends Component {
 
     render(){
         return(
-            <Container fluid>
+            <Container >
             <Row fluid>
                 <Col size="12">
                     <Jumbotron>
